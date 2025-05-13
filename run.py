@@ -20,7 +20,7 @@ def coordinates_finder(city, country):
             print("Unable to find your location try again")
             city_and_country_input()
         else:
-            print("\nlatitude is :- " ,loc.latitude, "|" " longtitude is:-" ,loc.longitude)
+            print("\nlatitude is : " ,loc.latitude, "|" " longtitude is:" ,loc.longitude)
             continue_or_not()
 
 def continue_or_not():
